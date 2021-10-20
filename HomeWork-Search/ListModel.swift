@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct ListModel: Hashable, Codable {
+    var title: String?
+    var subTitle: String?
+    var price: String?
+    var isSelect: Bool
+    
+}

@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0AE3292705E13000384B88 /* CustomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AE3282705E13000384B88 /* CustomRow.swift */; };
+		CA0AE32E2705E18300384B88 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AE32D2705E18300384B88 /* ListModel.swift */; };
+		CA0AE333270FEB0200384B88 /* SearchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AE332270FEB0200384B88 /* SearchDetail.swift */; };
 		CA8264172705DB3D00FC648D /* HomeWork_SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8264162705DB3D00FC648D /* HomeWork_SearchApp.swift */; };
 		CA8264192705DB3D00FC648D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8264182705DB3D00FC648D /* ContentView.swift */; };
 		CA82641B2705DB4100FC648D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA82641A2705DB4100FC648D /* Assets.xcassets */; };
 		CA82641E2705DB4100FC648D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA82641D2705DB4100FC648D /* Preview Assets.xcassets */; };
 		CA8264292705DB4200FC648D /* HomeWork_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8264282705DB4200FC648D /* HomeWork_SearchTests.swift */; };
 		CA8264342705DB4200FC648D /* HomeWork_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8264332705DB4200FC648D /* HomeWork_SearchUITests.swift */; };
+		CAA55F532720557C00E8E676 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CAA55F522720557C00E8E676 /* README.md */; };
+		CAEB8A75271DA121009DBA04 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB8A74271DA120009DBA04 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0AE3282705E13000384B88 /* CustomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRow.swift; sourceTree = "<group>"; };
+		CA0AE32D2705E18300384B88 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		CA0AE332270FEB0200384B88 /* SearchDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetail.swift; sourceTree = "<group>"; };
 		CA8264132705DB3D00FC648D /* HomeWork-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8264162705DB3D00FC648D /* HomeWork_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_SearchApp.swift; sourceTree = "<group>"; };
 		CA8264182705DB3D00FC648D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,8 @@
 		CA82642F2705DB4200FC648D /* HomeWork-SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork-SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8264332705DB4200FC648D /* HomeWork_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_SearchUITests.swift; sourceTree = "<group>"; };
 		CA8264352705DB4200FC648D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA55F522720557C00E8E676 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAEB8A74271DA120009DBA04 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		CA82640A2705DB3C00FC648D = {
 			isa = PBXGroup;
 			children = (
+				CAA55F522720557C00E8E676 /* README.md */,
 				CA8264152705DB3D00FC648D /* HomeWork-Search */,
 				CA8264272705DB4200FC648D /* HomeWork-SearchTests */,
 				CA8264322705DB4200FC648D /* HomeWork-SearchUITests */,
@@ -97,9 +108,13 @@
 			children = (
 				CA8264162705DB3D00FC648D /* HomeWork_SearchApp.swift */,
 				CA8264182705DB3D00FC648D /* ContentView.swift */,
+				CA0AE3282705E13000384B88 /* CustomRow.swift */,
 				CA82641A2705DB4100FC648D /* Assets.xcassets */,
 				CA82641F2705DB4100FC648D /* Info.plist */,
 				CA82641C2705DB4100FC648D /* Preview Content */,
+				CA0AE32D2705E18300384B88 /* ListModel.swift */,
+				CA0AE332270FEB0200384B88 /* SearchDetail.swift */,
+				CAEB8A74271DA120009DBA04 /* SearchBar.swift */,
 			);
 			path = "HomeWork-Search";
 			sourceTree = "<group>";
@@ -235,6 +250,7 @@
 			files = (
 				CA82641E2705DB4100FC648D /* Preview Assets.xcassets in Resources */,
 				CA82641B2705DB4100FC648D /* Assets.xcassets in Resources */,
+				CAA55F532720557C00E8E676 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +277,10 @@
 			files = (
 				CA8264192705DB3D00FC648D /* ContentView.swift in Sources */,
 				CA8264172705DB3D00FC648D /* HomeWork_SearchApp.swift in Sources */,
+				CA0AE3292705E13000384B88 /* CustomRow.swift in Sources */,
+				CA0AE32E2705E18300384B88 /* ListModel.swift in Sources */,
+				CA0AE333270FEB0200384B88 /* SearchDetail.swift in Sources */,
+				CAEB8A75271DA121009DBA04 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWork-Search/Preview Content\"";
+				DEVELOPMENT_TEAM = 258D5F9VGQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "HomeWork-Search/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -426,8 +448,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yangguan.HomeWork-Search.HomeWork-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwm.pickup.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = pickup_dev_08180112;
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeWork-Search/HomeWork-Search-Bridging-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,8 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWork-Search/Preview Content\"";
+				DEVELOPMENT_TEAM = 258D5F9VGQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "HomeWork-Search/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -447,8 +473,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yangguan.HomeWork-Search.HomeWork-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwm.pickup.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = pickup_dev_08180112;
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeWork-Search/HomeWork-Search-Bridging-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

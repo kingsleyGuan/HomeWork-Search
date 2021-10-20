@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct SearchDetail: View {
+    var title: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Hello, World!")
+                .navigationBarTitle(title, displayMode: .inline)
     }
 }
 
 struct SearchDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SearchDetail()
+        SearchDetail(title: "Title")
     }
 }
